@@ -1,26 +1,42 @@
 html {
-    background-color: #fafafa
+    background-color: #fefefe;
 }
 
 body {
     font-family: arial, sans-serif;
     font-size: 13px;
 }
-div {
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
+div.container {
+    width: 500px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 section {
     position: absolute;             
-   top: 50%;                        
-   transform: translate(0, -50%);   
+   top: 45%;                        
+   transform: translate(0, -50%);
+   width: 40%;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 #logo{
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#srch {
+float: left;
+margin-left: 23%;
+margin-right: 1px;
+}
+
+#luck {
+float: right;
+margin-right: 23%;
+margin-left: 1px;
 }
 
 .bu {
@@ -32,13 +48,16 @@ section {
     border-color: #eeeeee;
     margin: 4px;
     padding: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #searchbox {
-    width: 1000px;
-    box-shadow: 1px 1px #aaaaaa;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px #dddddd;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
 }
 
 .bu:hover {
